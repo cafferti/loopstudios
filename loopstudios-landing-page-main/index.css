@@ -1,0 +1,78 @@
+:root{
+    --Dark-Blue: hsl(233, 26%, 24%);
+
+--White:hsl(0, 0%, 100%);
+--Black: hsl(0, 0%, 0%);
+--Dark-Gray: hsl(0, 0%, 55%);
+--Very-Dark-Gray: hsl(0, 0%, 41%);
+
+}
+
+body{
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-repeat:no-repeat;
+}
+
+nav{
+    padding-block: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.firstlink{
+ display: flex;
+ list-style: none;
+}
+
+.firstlink > li{
+    padding-inline: 1rem;
+    color: var(--White);
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    margin-inline: 10%;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    border: 2px solid var(--White);
+    width: 50%;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding: 2rem;
+    color: white;
+    font-weight: normal;
+}
+
+.cta{
+    margin-top: 18rem;
+    display: flex;
+}
+
+.cta > article > h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: normal;
+    
+}
+
+.hero{
+    height: 30rem;
+    width: 270%;
+    background-image: url(./images/desktop/image-interactive.jpg);
+    background-repeat: no-repeat;
+}
+
+.cta > article{
+    background-color: white;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    margin-left: -10rem;
+    margin-top: 150px;
+}
+
+
+
+
